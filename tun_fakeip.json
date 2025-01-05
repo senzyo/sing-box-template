@@ -110,13 +110,6 @@
         "com.android.captiveportallogin",
         "org.localsend.localsend_app"
       ],
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 7890
-        }
-      },
       "sniff": true,
       "sniff_override_destination": false
     },

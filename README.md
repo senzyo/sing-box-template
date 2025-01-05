@@ -66,9 +66,7 @@ https://raw.githubusercontent.com/senzyo/sing-box-templates/public/tun/doh/ali/g
 https://raw.githubusercontent.com/senzyo/sing-box-templates/public/mixed/doh/ali/google/testingcf.jsdelivr.net/config.json
 ```
 
-对于 Android, 推荐入站方式为 `tun` 的模板。
-
-- [ ] Apple 设备暂不可用此仓库模板, 有时间再改一下。
+对于 Android 和 Apple, 推荐入站方式为 `tun` 的模板。
 
 对于 Linux 和 Windows, 随便。
 
@@ -112,13 +110,6 @@ https://raw.githubusercontent.com/senzyo/sing-box-templates/public/mixed/doh/ali
         "com.android.captiveportallogin",
         "org.localsend.localsend_app"
       ],
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "127.0.0.1",
-          "server_port": 7890
-        }
-      },
       "sniff": true,
       "sniff_override_destination": false
     },
